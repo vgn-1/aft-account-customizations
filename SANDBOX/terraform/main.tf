@@ -7,3 +7,9 @@ resource "aws_budgets_budget" "total_cost" {
   time_period_start = "2022-02-01_00:00"
   time_unit         = "MONTHLY"
 }
+
+resource "aws_ssm_parameter" "fooapse2" {
+  name  = "foo"
+  type  = "String"
+  value = "barr"
+}
