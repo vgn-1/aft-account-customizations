@@ -36,7 +36,7 @@ resource "aws_lambda_function" "lambda_for_kms" {
   function_name = "my-test-function-from-AFT"
   description = "my-test-function-from-AFT"
   handler = "index.lambda_handler"
-  runtime = "python3.9"
+  runtime = "python3.10"
   architectures = ["arm64"]
   timeout = "5"
   filename = "index.zip"
