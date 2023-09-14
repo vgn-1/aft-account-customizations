@@ -11,5 +11,5 @@ resource "aws_budgets_budget" "total_cost" {
 resource "aws_ssm_parameter" "fooapse2" {
   name  = "foo"
   type  = "String"
-  value = "barr"
+  value = "bar"
 }
